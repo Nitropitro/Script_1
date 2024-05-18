@@ -41,7 +41,7 @@ lib:AddButton("Shiftlock", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/WQ9NPeDS'))();
 end)
 
-lib:AddButton("Button", function()
+lib:AddButton("Inf jump", function()
     print("Click")
 local InfiniteJumpEnabled = true
 game:GetService("UserInputService").JumpRequest:connect(function()
