@@ -1,0 +1,42 @@
+local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/Arceus-X-UI-Library/main/source.lua"))()
+lib:SetTitle("Nitro")
+
+lib:AddButton("Esp Name", function()
+    print("Click")
+loadstring(game:HttpGet("https://pastebin.com/raw/fprEyY5n"))();
+end)
+
+lib:AddButton("Break story 2", function()
+    print("Click")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RScriptz/RobloxScripts/main/BreakIn2.lua"))()
+end)
+
+lib:AddButton("Noclip by RSO", function()
+    print("Click")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RSOscrip/Noclip/main/Noclip"))()
+end)
+
+lib:AddButton("Murder vs sheriff", function()
+    print("Click")
+loadstring(game:HttpGet("https://pastebin.com/raw/u9mVta9M"))()
+end)
+
+lib:AddButton("Spam OLD CHAT", function()
+    print("Click")
+loadstring(game:HttpGet('https://pastebin.com/raw/fuETFYMu'))()
+end)
+
+lib:AddButton("Spam NEW CHAT", function()
+    print("Click")
+loadstring(game:HttpGet('https://pastebin.com/raw/8Htx56Ab'))()
+end)
+
+lib:AddButton("Owl hub", function()
+    print("Click")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))()
+end)
+
+lib:AddButton("Shiftlock", function()
+    print("Click")
+loadstring(game:HttpGet('https://pastebin.com/raw/WQ9NPeDS'))();
+end)
