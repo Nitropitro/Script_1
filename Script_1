@@ -40,3 +40,13 @@ lib:AddButton("Shiftlock", function()
     print("Click")
 loadstring(game:HttpGet('https://pastebin.com/raw/WQ9NPeDS'))();
 end)
+
+lib:AddButton("Button", function()
+    print("Click")
+local InfiniteJumpEnabled = true
+game:GetService("UserInputService").JumpRequest:connect(function()
+	if InfiniteJumpEnabled then
+		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+	end
+end)
+end)
