@@ -50,3 +50,8 @@ game:GetService("UserInputService").JumpRequest:connect(function()
 	end
 end)
 end)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+            Title = "Thanks for using script";
+            Text = "Made by Nitr0";
+                    })
